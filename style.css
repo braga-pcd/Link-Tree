@@ -21,6 +21,7 @@ div{
     text-align: center;
     border-radius: 12px;
     padding: 40px;
+    
 }
 
 h1{
@@ -47,8 +48,12 @@ img{
     --black:#141414;
     --white:white;
     --dark-grey:#1f1f1f;
-    
+    --aquamarine:#7FFFD4;
 
+}
+
+strong{
+    color: var(--aquamarine);
 }
 
 
