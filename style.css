@@ -5,26 +5,29 @@ box-sizing: border-box;
 font-family: "inter", sans-serif;}
 
 body{
-    background-color: #141414;
+
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--black);
 }
 
 div{
-    background-color: #1f1f1f;
+
     color: white;
     width: 384px;
+    color: var(--dark-grey);
 }
 
-ul,li{list-style: none;}
+ul,li{
+    list-style: none;
+}
 
 
 body{
     background-color: var(--black);
     height: 100vh;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,6 +101,6 @@ a{
 
 a:hover{
     background-color:var(--aquamarine);
-    transition: 0.6s;
+    transition: 0.8s;
 
 }
